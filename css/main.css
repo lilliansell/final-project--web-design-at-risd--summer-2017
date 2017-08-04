@@ -1,7 +1,11 @@
 h1 {
    border: 2px solid DarkBlue;
+      position: relative;
+   left: 500px;
 }
-
+h2 {
+   border: 2px solid DarkBlue;
+}
 #test {
    margin: auto;
 }
@@ -26,10 +30,56 @@ a {
 
 .con {
    position: absolute;
-   left: 15px;
-   top: 105px;
+   right: 870px;
+   bottom: 80px;
 }
 .con a {
    font-size: 20px;
    font-weight: bold;
+}
+
+.des {
+      position: absolute;
+   right: 870px;
+   bottom: 80px;
+}
+.des a {
+   font-size: 20px;
+   font-weight: bold;
+}
+
+.ill {
+   position: absolute;
+   right: 870px;
+   bottom: 80px;
+}
+.ill a {
+    font-size: 20px;
+   font-weight: bold;
+}
+.pho {
+   position: absolute;
+   right: 870px;
+   bottom: 80px;
+}
+.pho a {
+   font-size: 20px;
+   font-weight: bold;
+}
+.phocolor a {
+   font-weight: lighter;
+}
+.descolor a{
+   font-weight: lighter;
+}
+.illcolor a{
+   font-weight: lighter;
+}
+#contact a{
+   color: darkblue
+   font-weight: lighter;
+}
+#aboutpage {
+   position: relative;
+   left: 500px;
 }
